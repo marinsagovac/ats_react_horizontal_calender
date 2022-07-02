@@ -1,0 +1,71 @@
+{
+  "name": "ch_react-horizontal-datepicker",
+  "version": "2.0.3",
+  "homepage": "https://github.com/anubhav0100/ats_react_horizontal_calender.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anubhav0100/ats_react_horizontal_calender.git"
+  },
+  "keywords": [
+    "date-picker",
+    "horizontal-calendar",
+    "horizontal-datepicker",
+    "swipeable",
+    "side-scrolling",
+    "calendar-strip",
+    "web"
+  ],
+  "private": false,
+  "main": "./dist/components/DatePicker.js",
+  "license": "MIT",
+  "author": "Kushagra Agrawal",
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "dependencies": {
+    "date-fns": "^2.14.0"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "^4.0.3"
+  },
+  "scripts": {
+    "publish:npm": "rm -rf dist && mkdir dist && mkdir dist/components && mkdir dist/global && babel src/components -d dist/components --copy-files && babel src/global -d dist/global --copy-files",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/preset-react": "^7.10.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1"
+  },
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.13"
+    },
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
+  }
+}
