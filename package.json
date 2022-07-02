@@ -1,6 +1,6 @@
 {
   "name": "ch_react-horizontal-datepicker",
-  "version": "2.0.3",
+  "version": "2.0.5",
   "homepage": "https://github.com/anubhav0100/ats_react_horizontal_calender.git",
   "repository": {
     "type": "git",
@@ -28,8 +28,8 @@
     "date-fns": "^2.14.0"
   },
   "peerDependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
     "react-scripts": "^4.0.3"
   },
   "scripts": {

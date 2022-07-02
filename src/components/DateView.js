@@ -15,7 +15,7 @@ import {
 const DateView = ({startDate, lastDate, selectDate, getSelectedDay, primaryColor, labelFormat, marked}) => {
     const [selectedDate, setSelectedDate] = useState(null);
     const firstSection = {marginLeft: '40px'};
-    const selectedStyle = {fontWeight:"bold",width:"45px",height:"45px",borderRadius:"50%",border:`2px solid ${primaryColor}`,color:primaryColor};
+    const selectedStyle = {fontWeight:"bold",width:"55px",height:"55px",borderRadius:"50%",border:`2px solid ${primaryColor}`,color:primaryColor};
     const labelColor = {color: primaryColor};
     const markedStyle = {color: "#8c3737", padding: "2px", fontSize: 12};
 
